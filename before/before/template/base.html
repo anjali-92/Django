@@ -1,0 +1,53 @@
+<html>
+<head>
+    
+{% load staticfiles %}
+    
+{% block styling %}
+<link rel='stylesheet' href="{% static 'bootstrap/css/bootstrap.min.css' %}" >
+{% endblock styling %}
+
+<title>
+    {% block title%}
+    Hello world
+    {% endblock title %}
+</title>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+            {% if user.is_authenticated %}
+              <a class="navbar-brand" href="{% url 'users_home' %}">Home</a>
+            {% else %}
+              <a class="navbar-brand" href="{% url 'boardgames_home' %}">Home</a>
+            {% endif %}
+        </div>
+          {% if user.is_authenticated %}
+          <ul class="nav navbar-nav">
+            <li><a href="{% url 'tictactoe_invite' %}">New Game</a></li>
+          </ul>
+		  {% endif %}
+          <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            {% if user.is_authenticated %}
+                <li><a href="{% url 'boardgames_logout' %}">Logout</a></li>
+            {% else %}
+                <li><a href="{% url 'boardgames_login' %}">Login</a></li>
+		<li><a href="{% url 'user_signup' %}">SignUp</a></li>
+            {% endif %}
+          </ul>
+      </div>
+    </div>
+</head>
+<body>
+<div class="container">
+    {% block content %}
+    {% endblock content %}
+</div>
+{% block javascript %}
+<script src="{% static 'jquery-2.2.0.min.js' %}"></script>
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+{% endblock javascript %}
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+New Invitation from {{ invitation.from_user.username }}
+{% endblock title %}
+
+{% block content %}
+    <div class="well col-sm-6">
+	<p>User  {{ invitation.from_user.username }} Invites you for the game </p>
+
+	{% if invitation.message %}
+	    <p>He/She included the following message.</p>
+	    <p> {{ invitation.message }} </p>
+	{% endif %}
+	<form action="{% url 'tictactoe_invite_accept' invitation.id %}" method="post">
+            {% csrf_token %}
+            <button type="submit" name="accept" value="ok"> Accept  </button>
+            <button type="submit" name="deny" value="no"> Deny </button>
+        </form>
+    </div>
+{% endblock content %}
