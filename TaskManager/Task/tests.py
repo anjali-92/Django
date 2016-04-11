@@ -5,6 +5,7 @@ from rest_framework_jwt.compat import get_user_model
 User = get_user_model()
 
 '''
+https://github.com/GetBlimp/django-rest-framework-jwt/blob/master/tests/test_views.py
 Database is dropped after every test case is executed
 
 login_url='/api-token-auth/'
