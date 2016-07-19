@@ -1,10 +1,13 @@
 #This file is updated on 29/6/2016
 
 alembic (0.8.6)
-	It is a migration tool.It can emit alter statements to alter table structure and it also provides a way to construct migration scripts.Full support for transactional DDL [https://pypi.python.org/pypi/alembic]
+	It is a migration tool.It can emit alter statements to alter table structure and
+	it also provides a way to construct migration scripts.Full support for transactional
+	DDL [https://pypi.python.org/pypi/alembic]
 
 arrow (0.8.0)
-	It helps in creating, manipulating, formatting dates,time and timestamp.[https://pypi.python.org/pypi/arrow]
+	It helps in creating, manipulating, formatting dates,time and timestamp.
+	[https://pypi.python.org/pypi/arrow]
 
 beautifulsoup4 (4.4.1)
 	It helps in parsing html file.[https://www.crummy.com/software/BeautifulSoup/bs4/doc/]
@@ -13,42 +16,54 @@ cffi (1.7.0)
 	Helps interact with C code from python.[http://cffi.readthedocs.io/en/latest/]
 
 click (6.6)
-	It helps in development of command line application like --help, CLA,.It is python dcorator which allows calling function as cammand [https://www.youtube.com/watch?v=kNke39OZ2k0]
+	It helps in development of command line application like --help, CLA,.
+	It is python dcorator which allows calling function as cammand 
+	[https://www.youtube.com/watch?v=kNke39OZ2k0]
 
 cryptography (1.4)
 	To encrypt or decrypt keys for secure communication.[https://pypi.python.org/pypi/cryptography]
 
 datanommer.models (0.6.5)
-	It is storage consumer for fedora Infrstructure Message Bus(fedmsg).[https://pypi.python.org/pypi/datanommer.models]
+	It is storage consumer for fedora Infrstructure Message Bus(fedmsg).
+	[https://pypi.python.org/pypi/datanommer.models]
 
 decorator (4.0.10)
-	(Signature preserving and Signature changing decorators)[https://github.com/micheles/decorator/blob/4.0.10/documentation.pdf]
+	(Signature preserving and Signature changing decorators)
+	[https://github.com/micheles/decorator/blob/4.0.10/documentation.pdf]
 	Programming tool to adjust the behaviour of pre-existing code.Two types of decorators class and function.
 
 docutils (0.12)
-	It processes documentation into useful formats like HTML, XML, LaTeX.[https://pypi.python.org/pypi/docutils]
+	It processes documentation into useful formats like HTML, XML, LaTeX.
+	[https://pypi.python.org/pypi/docutils]
 
 dogpile.cache (0.6.1)
-	It is caching API which provides a geniric interface to caching backends of any variety.[http://dogpilecache.readthedocs.io/en/latest/]
+	It is caching API which provides a geniric interface to caching backends of any variety.
+	[http://dogpilecache.readthedocs.io/en/latest/]
 
 enum34 (1.1.6)
-	Set of symbolic names bound to unique names.[https://pypi.python.org/pypi/enum34]
+	Set of symbolic names bound to unique names.
+	[https://pypi.python.org/pypi/enum34]
 
 fedmsg (0.17.2)
-	Utility to send and recieve messages around fedora infrastructure.[https://pypi.python.org/pypi/fedmsg]
+	Utility to send and recieve messages around fedora infrastructure.
+	[https://pypi.python.org/pypi/fedmsg]
 
 fedmsg-meta-fedora-infrastructure (0.17.4)
-	This package contains metatdata provider plugins for primary deployment of the system.[https://apps.fedoraproject.org/packages/
-python-fedmsg-meta-fedora-infrastructure]
+	This package contains metatdata provider plugins for primary deployment of the system.
+	[https://apps.fedoraproject.org/packages/python-fedmsg-meta-fedora-infrastructure]
 
 Flask (0.11.1)
 	It is microframework for python based on Werkzeug, Jinja 2 [https://pypi.python.org/pypi/Flask]
 
 Flask-OpenID (1.2.5)
-	It is a flask extension that allows us to use OpenID authentication to our websites very fast.[https://pythonhosted.org/Flask-OpenID/] OpenID allows you to use an existing account to sign in to multiple websites, without needing to create new passwords[http://openid.net/get-an-openid/what-is-openid/].
+	It is a flask extension that allows us to use OpenID authentication to our websites very fast.
+	[https://pythonhosted.org/Flask-OpenID/] 
+	OpenID allows you to use an existing account to sign in to multiple websites, without needing 
+	to create new passwords[http://openid.net/get-an-openid/what-is-openid/].
 
 fmn.lib (0.8.1)
-	fnm is a family of systems to manage end-user notifications triggered by fedmsg,fedora Fedrated Message Bus.[https://github.com/fedora-infra/fmn/#architecture]
+	fnm is a family of systems to manage end-user notifications triggered by fedmsg,
+	fedora Fedrated Message Bus.[https://github.com/fedora-infra/fmn/#architecture]
 
 fmn.rules (0.8.2)
 	This module contains the set of "rules" fmn uses to process messages.
@@ -60,16 +75,19 @@ html5lib (0.9999999)
 	html5lib is a pure-python library for parsing HTML.[https://pypi.python.org/pypi/html5lib]
 
 idna (2.1)
-	A library to support the Internationalised Domain Names in Applications (IDNA) protocol[https://pypi.python.org/pypi/idna]
+	A library to support the Internationalised Domain Names in Applications (IDNA) protocol
+	[https://pypi.python.org/pypi/idna]
 
 ipaddress (1.0.16)
 	IP address representation.[https://github.com/phihag/ipaddress]
 
 itsdangerous (0.24)
-	Various helpers to pass data to untrusted environments and to get it back safe and sound[https://github.com/pallets/itsdangerous].
+	Various helpers to pass data to untrusted environments and to get it back safe and sound
+	[https://github.com/pallets/itsdangerous].
 
 Jinja2 (2.8)
-	Jinja2 is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.
+	Jinja2 is a template engine written in pure Python. It provides a Django inspired non-XML syntax 
+	but supports inline expressions and an optional sandboxed environment.
 
 kitchen (1.2.4)
 	To save code snippets[https://pypi.python.org/pypi/kitchen].	
@@ -78,7 +96,8 @@ lockfile (0.12.2)
 	Simple API's to lock files[https://pypi.python.org/pypi/lockfile].
 
 Mako (1.0.4)
-	A super-fast templating language that borrows the best ideas from the existing templating languages.[https://pypi.python.org/pypi/Mako/?]
+	A super-fast templating language that borrows the best ideas from the existing templating languages.
+	[https://pypi.python.org/pypi/Mako/?]
 
 Markdown (2.6.6)
 	http://pythonhosted.org/Markdown/
@@ -87,7 +106,8 @@ MarkupSafe (0.23)
 	Implements a unicode subclass that supports HTML strings[https://github.com/pallets/markupsafe].
 
 munch (2.0.4)
-	Munch is a dictionary that supports attribute-style access, a la JavaScript.Munches happily and transparently serialize to JSON and YAML.[https://github.com/Infinidat/munch]
+	Munch is a dictionary that supports attribute-style access, a la JavaScript.
+	Munches happily and transparently serialize to JSON and YAML.[https://github.com/Infinidat/munch]
 
 pip (6.0.8)
 	It is python pacakge manager. It allows to install, uninstall and maintain python packages.
@@ -99,12 +119,16 @@ psycopg2 (2.6.1)
 	Python PostgresSQL database adapter for python programming language.
 
 pyasn1 (0.1.9)
-	Abstract Syntax Notation One (ASN.1) is a well established and heavily used technology for storing and exchanging structured data between programs and systems. Many Internet, encryption and telephony protocols define their operations in ASN.1 terms.
-The pyasn1 library makes it easier for programmers and network engineers to develop, debug and experiment with ASN.1-based protocols using Python programming language as a tool
+	Abstract Syntax Notation One (ASN.1) is a well established and heavily used technology for storing 
+	and exchanging structured data between programs and systems. Many Internet, encryption and telephony
+	protocols define their operations in ASN.1 terms.The pyasn1 library makes it easier for programmers 
+	and network engineers to develop, debug and experiment with ASN.1-based protocols using Python 
+	programming language as a tool
 
 pycparser (2.14)
-	pycparser is a complete parser of the C language, written in
-pure Python using the PLY parsing library. It parses C code into an AST and can serve as a front-end for C compilers or analysis tools[https://github.com/eliben/pycparser].
+	pycparser is a complete parser of the C language, written in pure Python using the PLY parsing library.
+	It parses C code into an AST and can serve as a front-end for C compilers or analysis tools
+	[https://github.com/eliben/pycparser].
 
 
 Pygments (2.1.3)
@@ -133,30 +157,39 @@ accurate and cross platform timezone calculations[https://pypi.python.org/pypi/p
 
 pyzmq (15.2.0)
 	PyZMQ is the official Python binding for the ZeroMQ[[http://zguide.zeromq.org/page:all]] Messaging Library.
-	ØMQ (also spelled ZeroMQ, 0MQ or ZMQ) is a high-performance asynchronous messaging library aimed at use in scalable distributed or concurrent applications. It provides a message queue, but unlike message-oriented middleware, a ØMQ system can run without a dedicated message broker.[https://pypi.python.org/pypi/pyzmq]
+	ØMQ (also spelled ZeroMQ, 0MQ or ZMQ) is a high-performance asynchronous messaging library aimed at use in 
+	scalable distributed or concurrent applications. It provides a message queue, but unlike message-oriented 
+	middleware, a ØMQ system can run without a dedicated message broker.[https://pypi.python.org/pypi/pyzmq]
 
 redis (2.10.5)
-	The Python interface to the Redis key-value store.Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker[http://redis.io/].
+	The Python interface to the Redis key-value store.Redis is an open source (BSD licensed), in-memory 
+	data structure store, used as database, cache and message broker[http://redis.io/].
 
 requests (2.10.0)
 	Python HTTP for Humans[https://pypi.python.org/pypi/requests/].
 
 retask (1.0)
-	Retask is a simple task queue implementation written for human beings. It provides generic solution to create and manage task queues[https://pypi.python.org/pypi/retask].
+	Retask is a simple task queue implementation written for human beings. It provides generic solution 
+	to create and manage task queues[https://pypi.python.org/pypi/retask].
 
 setuptools (12.0.5)
-	Easily download, build, install, upgrade, and uninstall Python packages[https://pypi.python.org/pypi/setuptools](setup.py)
+	Easily download, build, install, upgrade, and uninstall Python packages
+	[https://pypi.python.org/pypi/setuptools](setup.py)
 
 six (1.10.0)
-It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions[https://pypi.python.org/pypi/six].
+It provides utility functions for smoothing over the differences between the Python versions with the goal 
+of writing Python code that is compatible on both Python versions[https://pypi.python.org/pypi/six].
 
 SQLAlchemy (1.0.13)
 	The Python SQL Toolkit and Object Relational Mapper[https://pypi.python.org/pypi/SQLAlchemy/1.0.13].
 
 urllib3 (1.16)
-HTTP library with thread-safe connection pooling, file post, and more.Re-use the same socket connection for multiple requests[https://pypi.python.org/pypi/urllib3].
+HTTP library with thread-safe connection pooling, file post, and more.Re-use the same socket connection for 
+multiple requests[https://pypi.python.org/pypi/urllib3].
 
 Werkzeug (0.11.10)
-Werkzeug started as simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility modules. It includes a powerful debugger, full featured request and response objects, HTTP utilities to handle entity tags, cache control headers, HTTP dates, cookie handling, file uploads, a powerful URL routing system and a bunch of community contributed addon modules.
+Werkzeug started as simple collection of various utilities for WSGI applications and has become one of the 
+most advanced WSGI utility modules. It includes a powerful debugger, full featured request and response 
+objects, HTTP utilities to handle entity tags, cache control headers, HTTP dates, cookie handling, file 
+uploads, a powerful URL routing system and a bunch of community contributed addon modules.
 [https://pypi.python.org/pypi/Werkzeug]
-
